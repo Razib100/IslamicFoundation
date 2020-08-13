@@ -1,0 +1,204 @@
+.logo{
+  width: 115px;
+  height: 115px;
+}
+hr{
+  max-width:280px;
+  border-width:3px;
+  border-color:#f05f40;
+  margin-left: 37.5%;
+  }
+hr.light{
+  border-color:#fff
+  }
+.bookCategory{
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+  color: #FC7474;
+}
+.recentBooks{
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+  color: #F565BB;
+}
+.photoGallary{
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+  color: #F27F32;
+}
+.modal-scrollfix.modal-scrollfix {
+    overflow-y: hidden;
+}
+
+
+
+.navbar {
+  background: #36B405  ; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/if/6.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/if/5.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/if/8.jpg");
+  background-size: cover; }
+
+#home-info .fa {
+  font-size: 50px; }
+
+#getstarted {
+  background: url("../img/if/4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  background: url("../img/if/2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #home-video .dark-overlay .fa {
+      font-size: 50px;
+      color: #ff0000; }
+
+#gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: #000; }
+#copyright a{
+  text-decoration: none;
+  color: #E74C3C    ;
+}
+
+#about-section {
+  background: url("../img/if/1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 300px;
+  position: relative; }
+  #about-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#about-middle-section img {
+  width: 350px;
+  height: 350px; }
+
+#icon-box .fa {
+  font-size: 50px; }
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+#service-header {
+  background: url("../img/pic6.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 300px;
+  position: relative; }
+  #service-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#blog-header {
+  background: url("../img/pic5.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 300px;
+  position: relative; }
+  #blog-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#contact-header {
+  background: url("../img/if/4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 300px;
+  position: relative; }
+  #contact-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+@media (max-width: 992px) {
+  hr{
+   max-width:280px;
+   border-width:3px;
+   border-color:#f05f40;
+   margin-left: 30%;
+    } }
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 300px; }
+    hr{
+      max-width:280px;
+      border-width:3px;
+      border-color:#f05f40;
+      margin-left: 21%;
+      } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #getstarted {
+    min-height: 380px; }
+  hr{
+    max-width:280px;
+    border-width:3px;
+    border-color:#f05f40;
+    margin-left: 17%;
+    } }
